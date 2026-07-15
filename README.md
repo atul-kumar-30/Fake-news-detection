@@ -28,7 +28,7 @@ This project goes beyond simple classification by providing an immersive, fully 
 The application runs on a Python Flask backend serving a highly optimized HTML/CSS/JS frontend.
 - **Backend (`app.py`)**: Handles the routing, web scraping, and NLP inference via Scikit-Learn.
 - **Frontend (`templates/`)**: Fully responsive UI providing real-time feedback, history tracking, and input validation.
-- **Model Training (`Fake_News_Detector-PA.ipynb`)**: The Jupyter Notebook used to clean the dataset, extract TF-IDF features, and train the machine learning algorithm.
+- **Model Training (`notebooks/Fake_News_Detector-PA.ipynb`)**: The Jupyter Notebook used to clean the dataset, extract TF-IDF features, and train the machine learning algorithm.
 
 ## The Model
 TruthLens utilizes a **Passive Aggressive Classifier (PAC)**. 
