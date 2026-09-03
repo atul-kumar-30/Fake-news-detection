@@ -4,10 +4,10 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Tech Stack](#tech-stack)
 - [Key Features](#key-features)
 - [Project Architecture](#project-architecture)
 - [The Model](#the-model)
-- [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
 - [Installation & Setup](#installation--setup)
 - [Author](#author)
@@ -16,6 +16,15 @@
 **TruthLens** is an advanced, machine-learning-powered Fake News Detection application developed to combat the spread of misinformation in the digital age. By utilizing state-of-the-art Natural Language Processing (NLP) techniques, TruthLens analyzes both manual text input and live web articles to predict whether the content is reliable or potentially deceptive.
 
 This project goes beyond simple classification by providing an immersive, fully animated Dark Mode UI with Glassmorphism aesthetics, offering users a beautiful and intuitive experience.
+
+## Tech Stack
+
+| Category | Technologies |
+|---|---|
+| **Machine Learning** | `scikit-learn`, `pandas`, `numpy`, `nltk` |
+| **Web Scraping** | `beautifulsoup4`, `requests` |
+| **Backend Framework** | `Flask` |
+| **Frontend** | Vanilla JS, HTML5, TailwindCSS |
 
 ## Key Features
 - **🌐 Live URL Web Scraping**: Instantly extract and analyze text from any live news article URL using `BeautifulSoup`.
@@ -39,11 +48,6 @@ PAC is an online learning algorithm perfectly suited for real-time text classifi
 - **Feature Extraction:** TF-IDF Vectorizer
 - **Training Dataset:** Over 70,000 combined reliable and unreliable articles.
 
-## Tech Stack
-- **Machine Learning**: `scikit-learn`, `pandas`, `numpy`, `nltk`
-- **Web Scraping**: `beautifulsoup4`, `requests`
-- **Backend Framework**: `Flask`
-- **Frontend**: Vanilla JS, HTML5, TailwindCSS
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
